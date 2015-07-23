@@ -22,7 +22,7 @@ public class TestUserIT {
     public void testUser2 () {
         User user = new User ();
         user.setUserName("TestUserIT");
-        Assert.assertEquals(user.getUserName(),"12");
+        Assert.assertEquals(user.getUserName(),"TestUserIT");
 
     }
     @Test
