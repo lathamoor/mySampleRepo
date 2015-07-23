@@ -21,7 +21,7 @@ public class User {
         this.userNameIndex = userNameIndex;
     }
 
-    public String getUserName() {
+    public String  getUserName() {
         return userName;
     }
 
