@@ -5,6 +5,7 @@ public class User {
     private int userNo;
     private int userNameIndex;
     private String userName;
+    private transient String userTrainset;
     public int getUserNo() {
         return userNo;
     }
@@ -21,6 +22,10 @@ public class User {
         this.userNameIndex = userNameIndex;
     }
 
+    /**
+     * test
+     * @return
+     */
     public String  getUserName() {
         return userName;
     }
@@ -35,5 +40,7 @@ public class User {
     }
 
 
-
+    public String getUserTrainset() {
+        return userTrainset;
+    }
 }
