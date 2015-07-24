@@ -7,7 +7,7 @@ public class User {
     private String userName;
     private transient String userTrainset;
     public int getUserNo() {
-        return userNo ;
+        return userNo;
     }
 
     public void setUserNo(int userNo) {
